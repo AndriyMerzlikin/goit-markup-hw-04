@@ -483,7 +483,7 @@ body {
 .footer-socials {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-socials-link {
   display: flex;
@@ -498,7 +498,5 @@ body {
 .footer-socials-link:focus {
   background: var(--footer-icon-clr);
 }
-.footer-social-media {
-  display: flex;
-  gap: 16px;
+.footer-social-list {
 }
