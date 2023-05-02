@@ -467,6 +467,7 @@ body {
 }
 .footer-cntnr {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo-cntnr {
   margin-right: 120px;
@@ -496,4 +497,8 @@ body {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background: var(--footer-icon-clr);
+}
+.footer-social-media {
+  display: flex;
+  gap: 16px;
 }
