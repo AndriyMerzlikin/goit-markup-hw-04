@@ -488,7 +488,7 @@ body {
 .footer-socials {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-socials-link {
   display: flex;
