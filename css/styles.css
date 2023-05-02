@@ -352,6 +352,7 @@ body {
 }
 .customers-logo-link:hover,
 .customers-logo-link:focus {
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
