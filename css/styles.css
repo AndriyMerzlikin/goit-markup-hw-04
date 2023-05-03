@@ -254,7 +254,6 @@ body {
 .uppertitle {
 }
 .advantages-icon {
-  display: flex;
 }
 .advantages-icon-box {
   margin-bottom: 8px;
@@ -307,7 +306,6 @@ body {
 }
 .team-title-position {
   text-align: center;
-  margin-bottom: 8px;
 }
 .text-team-position {
   text-align: center;
@@ -411,6 +409,9 @@ body {
 
 .card {
   display: block;
+}
+.card:hover,
+.card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -435,16 +436,8 @@ body {
   border: 1px solid var(--border-header-clr);
   border-top: none;
 }
-.portfolio-card-content:hover {
-  border: 1px solid var(--teamcard-bg-clr);
-}
 .card-title-pstn {
   margin-bottom: 8px;
-}
-.advantages-list:hover,
-.advantages-list:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* FOOTER */
@@ -469,6 +462,7 @@ body {
 .footer-logo-position {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 .footer-cntnr {
   display: flex;
